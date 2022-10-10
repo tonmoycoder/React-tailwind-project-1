@@ -12,7 +12,7 @@ const NavBar = () => {
     { id: 5, name: 'About', path: '/about' },
   ];
   return (
-    <nav className="bg-purple-200 w-full">
+    <nav className="bg-purple-200 w-full py-5">
       <div onClick={() => setOpen(!open)} className="h-6 w-6 md:hidden">
         {open ? <XMarkIcon /> : <Bars3Icon />}
       </div>

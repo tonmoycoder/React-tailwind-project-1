@@ -1,5 +1,7 @@
 import './App.css';
+import AssignmentMarks from './components/AsssignmentMarks/AssignmentMarks';
 import Navbar from './components/Navber/Navbar';
+import PhoneBar from './components/PhoneBar/PhoneBar';
 import Pricing from './components/Pricing/Pricing';
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
         This is Big heading
       </h1>
       <Pricing></Pricing>
+      <AssignmentMarks></AssignmentMarks>
+      <PhoneBar></PhoneBar>
     </div>
   );
 }
